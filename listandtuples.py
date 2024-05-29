@@ -71,3 +71,8 @@ print(mytuple)
 print(type(mytuple))
 print(anothertuple)
 print(type(anothertuple))
+
+newlist = list(mytuple)
+newlist.append("cat")
+newtuple = tuple(newlist)
+print(newtuple)
